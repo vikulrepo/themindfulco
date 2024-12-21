@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | The Mindful Co.</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>About Anukriti Kaushik</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="Anukriti Kaushik">
+        <p>Anukriti Kaushik is a certified psychologist specializing in...</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 The Mindful Co.</p>
+    </footer>
+</body>
+</html>
